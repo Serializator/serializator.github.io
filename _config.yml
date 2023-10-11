@@ -1,0 +1,39 @@
+title: Serializator
+url: https://serializator.github.io
+author: Serializator
+email: serializator@privsecmail.com
+
+description: >
+  Cloud System Engineer with a security-first mindset; Inspired by Cloud & Open Source,
+  contributing where and when I can.
+
+remote_theme: https://github.com/bitbrain/jekyll-dash
+
+paginate: 5
+paginate_path: '/blog/page:num/'
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+dash:
+  date_format: '%b %-d, %Y'
+
+  social_links:
+    - url: https://github.com/Serializator
+      icon: github-square
+      color: blue
+
+    - url: https://nl.linkedin.com/in/jvandenberkmortel
+      icon: linkedin
+      color: green
+
+    - url: mailto:serializator@privsecmail.com
+      icon: envelope
+      color: pink
+
+  avatar_source: github
+  github_username: Serializator
+
+plugins:
+  - jekyll/tagging
