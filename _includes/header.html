@@ -1,0 +1,13 @@
+<header class="c-page__header">
+	<h1>
+		{% if page.title == 'Home' %}
+			<code>{{ site.title }}</code>
+		{% else %}
+			<a class="no-hov" href="{{ '/' | prepend: site.baseurl }}"><code><<< {{ site.title }}</code></a>
+		{% endif %}
+	</h1>
+
+	{% if page.title == 'Home' %}
+		<h1>{{ site.description }}</h1>
+        {% endif %}
+</header>

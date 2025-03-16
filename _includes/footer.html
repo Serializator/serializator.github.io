@@ -1,0 +1,9 @@
+<footer class="c-page__footer">
+	<p>&copy; {{ 'now' | date: '%Y' }} {{ site.author }}</p>
+
+	<p>
+		{% for link in site.footer_links %}
+			<a href="{{ link.url }}" target="_blank">{{ link.text  }}</a>
+		{% endfor %}
+	</p>
+</footer>
